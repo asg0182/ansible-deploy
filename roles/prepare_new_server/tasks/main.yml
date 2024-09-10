@@ -10,7 +10,6 @@
     name: "{{ username }}"
     create_home: yes
     groups: sshusers
-    password: "{{ password }}"
   become: yes
 
 - name: Aloow SSH
